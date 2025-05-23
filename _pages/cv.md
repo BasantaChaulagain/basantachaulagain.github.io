@@ -4,135 +4,155 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
-[📄 Download Resume (pdf)](/assets/docs/Chaulagain_Basanta.pdf)
+[<i class="fas fa-file-pdf"></i> Download Resume (PDF)](/assets/docs/Chaulagain_Basanta.pdf)
+
 
 ---
 
-## Education
+## 🎓 Education
 
-- **Ph.D. in Computer Science**  
-  University of Georgia, Athens, GA  
-  *Aug 2021 – Expected May 2026*  
-  GPA: **4.0**
-  Advisor: Dr. Kyu Hyung Lee  
-  Focus: Cybersecurity, Digital Forensics, Intrusion Detection
+<dl>
+  <dt><strong>Ph.D. in Computer Science</strong> – University of Georgia</dt>
+  <dd>Aug 2021 – May 2026 (expected) &nbsp; | &nbsp; GPA: <strong>4.0</strong><br>
+  Advisor: <a href="https://kyuhlee.github.io/">Dr. Kyu Hyung Lee</a><br>
+  Focus: Cybersecurity, Digital Forensics, Intrusion Detection</dd>
 
-- **B.E. in Computer Engineering**  
-  Institute of Engineering (Pulchowk Campus), Tribhuvan University, Lalitpur, Nepal
-  *Nov 2014 - Sep 2018*
-  Percentage: **79.16%**
+  <dt><strong>B.E. in Computer Engineering</strong> – Pulchowk Campus, Tribhuvan University</dt>
+  <dd>Nov 2014 – Sep 2018 &nbsp; | &nbsp; Percentage: <strong>79.16%</strong></dd>
+</dl>
 
 ---
 
-## Research Experience
+## 🔬 Research Experience
 
-**Graduate Research Assistant**  
-University of Georgia, Athens, GA  
-*Aug 2021 – Present*  
-- Spearheaded end-to-end research lifecycle: ideation, design, implementation, evaluation, and paper-writing of **FA-SEAL**, a system that performs forensic analysis on encrypted logs while ensuring confidentiality and efficiency.
-- Mentored an undergraduate student, resulting in the simulation of 5 attack cases used for validation of FASEAL's efficacy.
-- Collaborated with experts from multiple universities in diverse, cross-cultural environments to conduct impactful and interdisciplinary research.
-
----
-
-## Work Experience 
-
-**Security Analytics Engineer**
-LogPoint, CopenHagen, Denmark
-*Sep 2020 - July 2021*
-- Engineered 30+ applications that extracted security insights from log sources (OS, Firewall, IDS, AD, servers, routers) across multiple vendors including the development of Analytics components (dashboards, alert rules, reports).
-- Authored 100+ custom alert rules, mapped precisely to different stages of cyber-attacks per the MITRE framework, enhancing proactive threat detection by 20%.
-
-**Solution Engineer - Customer Success**
-LogPoint, CopenHagen, Denmark
-*Oct 2018 - Sep 2020*
-- Debugged product-related problems and developed hotfixes, often applying fixes in the live production environment.
-- Developed and integrated 50+ plugins for technical proof of concept, converting 75% of demos to business.
-- Created key performance metrics to assess customer system performance, achieving a 20% improvement in monitoring, and developed automated scripts that cut manual monitoring tasks by 30%.
-- Conducted 20+ certified user and administrator training sessions, contributing to product adoption by 120+ individuals.
-
-**Software Engineering Intern**
-Sorus Nepal, Lalitpur, Nepal
-*Jun 2018 – Aug 2018*
-- Involved in writing middleware, creating custom validators and exception handlings (Python-Django).
-
-**Backend Developer Intern**
-Univhub Nepal, Kathmandu, Nepal
-*Sep 2017 – Jan 2018*
-- Involved in designing and implementing database for the solution.
-- Created REST APIs in Python to help communicate from the UI. 
+<ul class="compact-list">
+  <li>
+    <strong>Graduate Research Assistant</strong><br>
+    <em>University of Georgia (Aug 2021 – Present)</em><br>
+    <ul>
+      <li>Spearheaded full-cycle research on <strong>FA-SEAL</strong>, enabling encrypted forensic analysis.</li>
+      <li>Mentored an undergrad in simulating 5 attack cases for validation.</li>
+      <li>Collaborated with experts from multiple universities in diverse, cross-cultural environments to conduct impactful research. </li>
+    </ul>
+  </li>
+</ul>
 
 ---
 
-## Teaching Experience
+## 💼 Work Experience
 
-**Graduate Teaching Assistant** – CSCI 4370 - Database Management **(MySQL, Java)**, CSCI 1302 - Software Development **(Java)**
-University of Georgia, Athens, GA
-*Aug 2024 – May 2025*  
-- Actively engaged in class lectures, regularly assisting the professor by providing guidance.
-- Conducted timely and precise grading of student assignments, exams and projects.
-
-**Instructor**
-iDTech, Nashville, TN
-*Jun 2023 - Jul 2023*
-- Worked as a summer camp instructor where I taught middle-schoolers and high-schoolers various courses like Artificial Intelligence, Machine Learning, Python programming, Javascript and game design.
-
-**Lecturer** - Introduction to Programming **(C)**, Object-Oriented Programming **(C++)**
-Cosmos College of Management and Technology, Lalitpur, Nepal
-*May 2019 - April 2020*
-- Delivered engaging lectures on programming courses like C and C++ to 60+ undergraduate students.
-- Designed and implemented hands-on assessments, assignments, and lab exercises to evaluate students’ performances.
-
----
-
-## Publications
-
-See [Publications](/publications/) for details.
-
----
-
-## Technical Skills
-- **Languages:** Python (8+ years), C/C++ (6+ years), Bash (5+ years), PHP, Rust, Java 
-- **Frameworks:** Django, Flask
-- **Libraries:** TensorFlow, PyTorch, Pandas, OpenSSL, NLTK, Cryptography, NetworkX, Transformers, AutoGen
-- **Tools:** Linux, Windows, Git, Docker, SQL, MongoDB, Regex, AWS, Jira, KVM, ZFS, Wireshark, NMAP, Qualys
-- **Others:** SIEM, UEBA, SOAR, REST API, Multithreading, Threat Hunting, Time series analysis, TCP, SOC2
-
----
-
-## Certification
-- Cyber Security Foundation Professional Certificate (CSFPC), Cyber Security Foundation, 2021
-- Cloud Security Fundamentals, A Cloud Guru, 2021
-- MITRE ATT&CK DefenderTM (MAD) ATT&CK® Fundamentals, Cybrary, 2021
-- SANS/Dragos ICS CTF - March 2021 Bracket 1, SANS Institute, 2021
-- Enterprise System Management and Security, University of Colorado Boulder, 2020
-- Unlocking Information Security - Professional Certificate, Tel Aviv University, 2020
+<ul class="compact-list">
+  <li>
+    <strong>Security Analytics Engineer</strong> – LogPoint, Denmark (Sep 2020 – Jul 2021)
+    <ul>
+      <li>Engineered 30+ applications that extracted security insights from various log sources including the development of Analytics components.</li>
+      <li>Authored 100+ custom alert rules aligned with MITRE mapping, enhancing proactive threat detection by 20%.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Customer Success Engineer</strong> – LogPoint, Denmark (Oct 2018 – Sep 2020)
+    <ul>
+      <li>Debugged product-related problems and developed hotfixes in the live production environment.</li>
+      <li>Developed and integrated 50+ plugins for technical proof of concept, converting 75% of demos to business.</li>
+      <li>Developed automated scripts that cut manual monitoring tasks by 30%.</li>
+      <li>Conducted 20+ certified training sessions, contributing to product adoption by 120+ individuals.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Software Engineering Intern</strong> – Sorus Nepal (Jun – Aug 2018)
+    <ul>
+      <li>Involved in writing middleware, creating custom validators and exception handlings (Python-Django).</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Backend Developer Intern</strong> – Univhub Nepal (Sep 2017 – Jan 2018)
+    <ul>
+      <li>Involved in designing and implementing database for the solution.</li>
+      <li>Created REST APIs in Python to help communicate from the UI. </li>
+    </ul>
+  </li>
+</ul>
 
 ---
 
-## Honors & Awards
+## 🧑‍🏫 Teaching Experience
 
-- Travel Grant Recipient, UGA Graduate School, 2024
-- ACSAC 2024 Student Conferenceship, ACSA, 2024
-- Winner, LOCUS Hack-A-Week, 2017
-- Finalist, Ncell App Camp, 2015
+<ul class="compact-list">
+  <li>
+    <strong>Graduate Teaching Assistant</strong> – University of Georgia (Aug 2024 – May 2025)<br>
+    CSCI 4370 - <u>Database Management</u> (MySQL, Java), CSCI 1302 - <u>Software Development</u> (Java)
+    <ul>
+      <li>Actively engaged in class lectures, regularly assisting the professor by providing guidance.</li>
+      <li>Conducted timely and precise grading of student assignments, exams and projects.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Lecturer</strong> – Cosmos College of Technology and Management, Nepal (May 2019 – Apr 2020)
+    <br>
+    <u>Introduction to Programming</u> (C), <u>Object-Oriented Programming</u> (C++)
+    <ul>
+      <li>Delivered engaging lectures on programming courses like C and C++ to 60+ undergraduate students.</li>
+      <li>Designed and implemented hands-on assessments, assignments, and lab exercises to evaluate students’ performances.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Instructor</strong> – iDTech, Nashville, TN (Jun 2023 – Jul 2023)
+    <ul>
+      <li>Worked as a summer camp instructor where I taught middle-schoolers and high-schoolers various courses like Artificial Intelligence, Machine Learning, Python programming, Javascript and game design.</li>
+    </ul>
+  </li>
+</ul>
 
 ---
 
-## Services
+## 🧠 Technical Skills
+<ul class="compact-list">
+  <li><strong>Languages:</strong> Python (8+ years), C/C++ (6+ years), Bash (5+ years), PHP, Rust, Java </li>
+  <li><strong>Frameworks:</strong> Django, Flask </li>
+  <li><strong>Libraries:</strong> TensorFlow, PyTorch, Pandas, OpenSSL, NLTK, Cryptography, NetworkX, Transformers, AutoGen </li>
+  <li><strong>Tools:</strong> Linux, Windows, Git, Docker, SQL, MongoDB, Regex, AWS, Jira, KVM, ZFS, Wireshark, NMAP, Qualys </li>
+  <li><strong>Others:</strong> SIEM, UEBA, SOAR, REST API, Multithreading, Threat Hunting, Time series analysis, TCP, SOC2 </li>
+</ul>
+---
 
-- Artifact Evaluation Committee, ACSAC 2024
-- Artifact Evaluation Committee, ACSAC 2022
+## 🏅 Certifications
+<ul class="compact-list">
+  <li>Cyber Security Foundation Professional Certificate (CSFPC), Cyber Security Foundation, 2021</li>
+  <li>Cloud Security Fundamentals, A Cloud Guru, 2021</li>
+  <li>MITRE ATT&CK DefenderTM (MAD) ATT&CK® Fundamentals, Cybrary, 2021</li>
+  <li>SANS/Dragos ICS CTF - March 2021 Bracket 1, SANS Institute, 2021</li>
+  <li>Enterprise System Management and Security, University of Colorado Boulder, 2020</li>
+  <li>Unlocking Information Security - Professional Certificate, Tel Aviv University, 2020</li>
+</ul>
 
 ---
 
-## Other Involvements
+## 🏆 Honors & Awards
+<ul class="compact-list">
+  <li>Travel Grant – UGA Grad School, 2024  </li>
+  <li>Student Conferenceship – ACSA, 2024  </li>
+  <li>Winner – LOCUS Hack-A-Week, 2017  </li>
+  <li>Finalist – Ncell App Camp, 2015  </li>
+</ul>
 
-- Organizer, International Street Festival @ University of Georgia, 2025
-- Secretary, Nepalese Students Association @ University of Georgia, 2022
-- Media Coordinator, LOCUS National Technological Festival, 2018
-- Organizer, Hult Prize @ IOE Pulchowk, 2017
-- Organizer, Children in Technology, 2017
-- Member, AIESEC in Kathmandu, 2016
-- Technical Volunteer, Help Nepal Network (HeNN), 2016
-- Volunteer, Earthquake Relief Team, Bibeksheel Nepali, 2015
+---
+
+## 🌐 Services & Involvement
+
+### Academic Service:
+<ul class="compact-list">
+  <li>Artifact Evaluation Committee – ACSAC 2024 </li>
+  <li>Artifact Evaluation Committee – ACSAC 2022 </li>
+</ul>
+
+### Community & Leadership:
+<ul class="compact-list">
+  <li>Organizer, International Street Festival @ University of Georgia, 2025</li>
+  <li>Secretary, Nepalese Students Association @ University of Georgia, 2022</li>
+  <li>Media Coordinator, LOCUS National Technological Festival, 2018</li>
+  <li>Organizer, Hult Prize @ IOE Pulchowk, 2017</li>
+  <li>Organizer, Children in Technology, 2017</li>
+  <li>Member, AIESEC in Kathmandu, 2016</li>
+  <li>Technical Volunteer, Help Nepal Network (HeNN), 2016</li>
+  <li>Volunteer, Earthquake Relief Team, Bibeksheel Nepali, 2015</li>
+</ul>

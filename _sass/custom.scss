@@ -1,0 +1,61 @@
+.publication-entry {
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+    border-left: 3px solid #007acc;
+  }
+  
+.labelw {
+  font-size: 0.85rem;
+  display: inline-block;
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+  color: #fff;
+}
+.label-primary { background: #007acc; }
+.label-warning { background: #f0ad4e; }
+.label-secondary { background: #6c757d; }
+  
+
+ul.compact-list {
+  font-size: 0.9rem;        
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.6rem;
+  list-style-position: outside;
+}
+
+ul.compact-list li {
+  font-size: 0.8rem;   
+  margin-top: 0.2rem; 
+  margin-bottom: 0.2rem;    
+  line-height: 1.2;         
+}
+
+.news-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.news-table .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.news-table .date {
+  flex: 0 0 100px;
+  font-weight: 600;
+  color: #444;
+}
+
+.news-table .detail {
+  flex: 1;
+}
+
+.sidebar .author__avatar {
+  width: 150px;   // default is 100px — adjust as needed
+  height: 150px;
+}
+
