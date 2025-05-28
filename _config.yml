@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Basanta Chaulagain"
-  avatar           : /assets/images/head3.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/head2.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a PhD candidate in computer science with a research focus on cyber security."
   location         : "Athens, GA"
   email            : basanta.chaulagain@uga.edu
