@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.27.1"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -157,6 +157,7 @@ include:
   - .htaccess
   - _pages
   - _posts
+  - _blog
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -312,9 +313,10 @@ defaults:
       path: ""
       type: posts
     values:
-      published: false
+      published: true
+      breadcrumbs: false
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       # comments: # true
       # share: true
@@ -327,4 +329,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
+
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+
