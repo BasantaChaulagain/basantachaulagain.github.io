@@ -131,6 +131,7 @@ permalink: /cv/
 <ul class="compact-list">
   <li>Travel Grant – UGA Grad School, 2024  </li>
   <li>Student Conferenceship – ACSA, 2024  </li>
+  <li>Travel Grant – UGA Grad School, 2023  </li>
   <li>Winner – LOCUS Hack-A-Week, 2017  </li>
   <li>Finalist – Ncell App Camp, 2015  </li>
 </ul>
@@ -144,6 +145,7 @@ permalink: /cv/
   <li>Artifact Evaluation Committee – ACSAC 2024 </li>
   <li>Artifact Evaluation Committee – ACSAC 2022 </li>
 </ul>
+
 
 ### Community & Leadership:
 <ul class="compact-list">
