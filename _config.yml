@@ -321,6 +321,13 @@ defaults:
       # comments: # true
       # share: true
       related: true
+  
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      published: true
 
   # _pages
   - scope:
