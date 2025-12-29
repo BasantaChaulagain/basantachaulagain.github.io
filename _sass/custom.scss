@@ -59,3 +59,51 @@ ul.compact-list li {
   height: 150px;
 }
 
+
+
+.layout--collection .entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.5rem;
+  justify-items: stretch;   /* critical */
+}
+
+.layout--collection .entries-grid .grid__item {
+  width: 100%;
+  height: 300px;
+}
+
+.layout--collection .archive__item-teaser {
+  height: 220px;
+  max-height: none;
+  overflow: hidden;
+}
+
+.layout--collection .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.layout--single .page__hero {
+  height: 500px;
+  overflow: hidden;
+}
+
+.layout--single .page__hero-image img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain; 
+  display: block;
+  margin: 0 auto;     
+}
+
+.small-font {
+  font-size: 0.90em;
+}
+
+.small-font p,
+.small-font li {
+  line-height: 1.55;
+}
