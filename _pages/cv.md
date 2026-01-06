@@ -13,7 +13,7 @@ permalink: /cv/
 
 <dl>
   <dt><strong>Ph.D. in Computer Science</strong> – University of Georgia</dt>
-  <dd>Aug 2021 – May 2026 (expected) &nbsp; | &nbsp; GPA: <strong>4.0</strong><br>
+  <dd>Aug 2021 – Jul 2026 (expected) &nbsp; | &nbsp; GPA: <strong>4.0</strong><br>
   Advisor: <a href="https://kyuhlee.github.io/">Dr. Kyu Hyung Lee</a><br>
   Focus: Cybersecurity, Digital Forensics, Intrusion Detection</dd>
 
@@ -30,8 +30,8 @@ permalink: /cv/
     <strong>Graduate Research Assistant</strong><br>
     <em>University of Georgia (Aug 2021 – Present)</em><br>
     <ul>
-      <li>Spearheaded full-cycle research on <strong>FA-SEAL</strong>, enabling encrypted forensic analysis.</li>
-      <li>Mentored an undergrad in simulating 5 attack cases for validation.</li>
+      <li>Spearheaded full-cycle research on multiple research projects such as <strong>FA-SEAL</strong>, <strong>FACT</strong>.</li>
+      <li>Provided research mentorship to undergraduate and graduate students across multiple projects.</li>
       <li>Collaborated with experts from multiple universities in diverse, cross-cultural environments to conduct impactful research. </li>
     </ul>
   </li>
@@ -79,8 +79,8 @@ permalink: /cv/
 
 <ul class="compact-list">
   <li>
-    <strong>Graduate Teaching Assistant</strong> – University of Georgia (Aug 2024 – May 2025)<br>
-    CSCI 4370 - <u>Database Management</u> (MySQL, Java), CSCI 1302 - <u>Software Development</u> (Java)
+    <strong>Graduate Teaching Assistant</strong> – University of Georgia (Aug 2024 – Dec 2025)<br>
+    CSCI 4370/6370 - <u>Database Management</u> (MySQL, Java), CSCI 1302 - <u>Software Development</u> (Java)
     <ul>
       <li>Actively engaged in class lectures, regularly assisting the professor by providing guidance.</li>
       <li>Conducted timely and precise grading of student assignments, exams and projects.</li>
@@ -105,14 +105,72 @@ permalink: /cv/
 
 ---
 
+## 🧪 Selected Projects
+
+<ul class="compact-list">
+  <li>
+    <strong>FA-SEAL: Forensically Analyzable Symmetric Encryption for Audit Logs</strong><br>
+    <em>PhD Research Project</em> 
+    <a href="https://github.com/BasantaChaulagain/faseal"><i class="fab fa-github"></i> Source code</a> <br>
+    <ul>
+      <li>FA-SEAL is a novel system that enables forensic analysis directly on encrypted audit logs while exclusively disclosing only cyberattack-relevant events to third-party investigators. </li>
+      <li>It leverages searchable encryption (SE) to create causal graphs while preserving privacy and security. </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>FACT: Forensic-Aware Artifact Collection system</strong><br>
+    <em>PhD Research Project</em> 
+    <a href="https://github.com/BasantaChaulagain/fact"><i class="fab fa-github"></i> Source code</a> <br>
+    <ul>
+      <li>FACT is a forensic-aware platform that enhances intrusion detection systems in lowering false positives by automating the identification, collection, and analysis of alert-relevant artifacts. </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Text Manipulation Library for Rust</strong><br>
+    <em>Course project for 'Secure Programming'</em>
+    <a href="https://github.com/BasantaChaulagain/text-manipulation-rs"><i class="fab fa-github"></i> Source code</a> 
+    <a href="https://crates.io/crates/text_manipulation_rs"><i class="fab fa-rust"></i> Crate</a> 
+    <br>
+    <ul>
+      <li> A rust crate for advanced text manipulation, including multilingual text generation, translation, and words definitions with over 4800 downloads. </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Privacy preserving Image Classification</strong><br>
+    <em>Course project for 'Privacy Preserving Data Analysis'</em> 
+    <a href="https://github.com/BasantaChaulagain/image_clf_privacy"><i class="fab fa-github"></i> Source code</a>
+    <a href="https://arxiv.org/pdf/2412.06689"><i class="fas fa-file-pdf"></i> Report</a> <br>
+    <ul>
+      <li> This project investigates the trade-off between privacy and utility in deep learning–based image classification including ConvNet, ResNet18, EfficientNet, ViT and DenseNet21 under various differential privacy constraints. </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Casualty Information Extraction and Analysis from News</strong><br>
+    <em>Undergraduate Capstone Project</em> 
+    <a href="https://github.com/majorProject071/MajorDjango"><i class="fab fa-github"></i> Source code</a>
+    <ul>
+      <li> A system for automatic extraction and visualization of casualty information from news articles, tested with local news feed of road accidents. </li>
+      <li> It uses techniques like Named Entity Recognition, Semantic Role Labeling and Regular expressions. </li>
+    </ul>
+  </li>
+
+</ul>
+
+---
+
 ## 🧠 Technical Skills
 <ul class="compact-list">
   <li><strong>Languages:</strong> Python (8+ years), C/C++ (6+ years), Bash (5+ years), PHP, Rust, Java </li>
   <li><strong>Frameworks:</strong> Django, Flask </li>
-  <li><strong>Libraries:</strong> TensorFlow, PyTorch, Pandas, OpenSSL, NLTK, Cryptography, NetworkX, Transformers, AutoGen </li>
-  <li><strong>Tools:</strong> Linux, Windows, Git, Docker, SQL, MongoDB, Regex, AWS, Jira, KVM, ZFS, Wireshark, NMAP, Qualys </li>
-  <li><strong>Others:</strong> SIEM, UEBA, SOAR, REST API, Multithreading, Threat Hunting, Time series analysis, TCP, SOC2 </li>
+  <li><strong>Libraries:</strong> PySpark, TensorFlow, PyTorch, Pandas, OpenSSL, NLTK, Cryptography, NetworkX, Transformers, AutoGen </li>
+  <li><strong>Tools:</strong> Linux, Windows, Git, Docker, Kubernetes, SQL, MongoDB, Regex, AWS, Jira, KVM, ZFS, Wireshark, NMAP, Qualys </li>
+  <li><strong>Others:</strong> SIEM, UEBA, SOAR, REST API, Multithreading, Threat Hunting, Time series analysis, TCP, SOC2, NIST </li>
 </ul>
+
 ---
 
 ## 🏅 Certifications
