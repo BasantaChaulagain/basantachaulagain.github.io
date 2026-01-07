@@ -151,7 +151,7 @@ include:
   - .htaccess
   - _pages
   - _posts
-  - _blog
+  # - _blog
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -317,12 +317,12 @@ defaults:
       related: true
 
   # _blog
-  - scope:
-      path: ""
-      type: blog
-    values:
-      published: true
-      layout: single
+  # - scope:
+  #     path: ""
+  #     type: blog
+  #   values:
+  #     published: true
+  #     layout: single
 
   # _pages
   - scope:
@@ -333,8 +333,8 @@ defaults:
       author_profile: true
 
 
-collections:
-  blog:
-    output: true
-    permalink: /blog/:title/
+# collections:
+#   blog:
+#     output: true
+#     permalink: /blog/:title/
 
