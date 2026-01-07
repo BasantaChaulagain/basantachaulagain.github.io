@@ -61,25 +61,25 @@ ul.compact-list li {
 
 
 
-.layout--collection .entries-grid {
+.entries-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2.5rem;
-  justify-items: stretch;   /* critical */
+  justify-items: stretch;  
 }
 
-.layout--collection .entries-grid .grid__item {
+.entries-grid .grid__item {
   width: 100%;
   height: 300px;
 }
 
-.layout--collection .archive__item-teaser {
+.archive__item-teaser {
   height: 220px;
   max-height: none;
   overflow: hidden;
 }
 
-.layout--collection .archive__item-teaser img {
+.archive__item-teaser img {
   width: 100%;
   height: 100%;
   object-fit: cover;
