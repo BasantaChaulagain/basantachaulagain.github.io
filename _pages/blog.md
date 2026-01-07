@@ -6,7 +6,6 @@ entries_layout: grid
 author_profile: true
 classes: wide
 published: true
-group_by_year: false
 ---
 
 {% assign layout_type = page.entries_layout | default: 'list' %}
