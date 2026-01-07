@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+remote_theme             : "mmistakes/minimal-mistakes@4.27.1"
 minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : PhD Candidate in Computer Science # site tagline that appears below site title in masthead
 name                     : "Basanta Chaulagain"
 description              : "A personal website of Basanta Chaulagain."
-url                      : https://basantachaulagain.com.np # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://basantachaulagain.com.np/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : basantachaulagain/basantachaulagain.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
