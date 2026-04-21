@@ -188,6 +188,8 @@ permalink: /cv/
 
 ## 🏆 Honors & Awards
 <ul class="compact-list">
+  <li>Outstanding Teaching Assistant Award, UGA Grad School, 2026</li>
+  <li>Best Poster Award - School of Computing Research Day, 2026 </li>
   <li>Travel Grant – UGA Grad School, 2024  </li>
   <li>Student Conferenceship – ACSA, 2024  </li>
   <li>Travel Grant – UGA Grad School, 2023  </li>
