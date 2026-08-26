@@ -19,9 +19,9 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Basanta Chaulagain"
 title_separator          : "-"
-subtitle                 : PhD Candidate in Computer Science # site tagline that appears below site title in masthead
+subtitle                 : "PhD, Computer Science (Cybersecurity)" # site tagline that appears below site title in masthead
 name                     : "Basanta Chaulagain"
-description              : "A personal website of Basanta Chaulagain."
+description              : "PhD in Computer Science (UGA). Detection engineering, digital forensics, and security research. ACSAC, NDSS, LogPoint."
 url                      : https://basantachaulagain.com.np # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : basantachaulagain/basantachaulagain.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Basanta Chaulagain"
   avatar           : /assets/images/head2.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a PhD candidate in computer science with a research focus on cyber security."
+  bio              : "I build detection and forensic systems that turn noisy alerts into verified evidence."
   location         : "Athens, GA"
   email            : basanta.chaulagain@uga.edu
   links:

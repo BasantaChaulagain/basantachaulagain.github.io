@@ -12,6 +12,15 @@ For a full list, visit my <a href="https://scholar.google.com/citations?user=C65
 ## 📝 Selected Publications
 
 <div class="publication-entry" style="font-size:0.9rem; line-height:1.4;">
+  <strong>CLEAR: Contextual Evidence-Based Alert Resolution for ML-Based Host Intrusion Detection</strong><br>
+  <u>Basanta Chaulagain</u>, Kyu Hyung Lee<br>
+  <span class="labelw label-warning">Under submission</span><br>
+  <a href="https://github.com/BasantaChaulagain/clear"><i class="fab fa-github"></i> Code</a> 
+</div>
+
+---
+
+<div class="publication-entry" style="font-size:0.9rem; line-height:1.4;">
   <strong>Beyond Alerts: Forensic-Aware Artifact Collection Bridging and Enhancing Intrusion Detection and Forensic Analysis</strong><br>
   <u>Basanta Chaulagain</u>, Dipendra Shrestha, Kyu Hyung Lee<br>
   <span class="labelw label-warning">Under submission</span><br>
