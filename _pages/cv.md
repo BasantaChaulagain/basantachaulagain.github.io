@@ -31,7 +31,12 @@ permalink: /cv/
     <strong>Graduate Research Assistant</strong><br>
     <em>University of Georgia (Aug 2021 – Present)</em><br>
     <ul>
-      <li>Spearheaded full-cycle research on multiple research projects such as <strong>FA-SEAL</strong>, <strong>FACT</strong>.</li>
+      <li>Designed and implemented <strong>automated threat detection</strong> and forensic analysis systems that correlate 
+          endpoint telemetry and security artifacts to <strong>validate alerts</strong> and improve detection accuracy 
+          across projects such as <strong>CLEAR</strong> and <strong>FACT</strong>.</li>
+      <li>Analyzed attacker techniques such as persistence, privilege escalation, and defense evasion, 
+          and used those findings to design and evaluate detection methods.</li>
+      <li>Led end-to-end research lifecycle: ideation, design, implementation, evaluation, and writing of multiple research projects.</li>
       <li>Provided research mentorship to undergraduate and graduate students across multiple projects.</li>
       <li>Collaborated with experts from multiple universities in diverse, cross-cultural environments to conduct impactful research. </li>
     </ul>
@@ -51,7 +56,7 @@ permalink: /cv/
     </ul>
   </li>
   <li>
-    <strong>Customer Success Engineer</strong> – LogPoint, Denmark (Oct 2018 – Sep 2020)
+    <strong>Software Engineer - Customer Success</strong> – LogPoint, Denmark (Oct 2018 – Sep 2020)
     <ul>
       <li>Debugged product-related problems and developed hotfixes in the live production environment.</li>
       <li>Developed and integrated 50+ plugins for technical proof of concept, converting 75% of demos to business.</li>
@@ -110,52 +115,53 @@ permalink: /cv/
 
 <ul class="compact-list">
   <li>
-    <strong>FA-SEAL: Forensically Analyzable Symmetric Encryption for Audit Logs</strong><br>
-    <em>PhD Research Project</em> 
-    <a href="https://github.com/BasantaChaulagain/faseal"><i class="fab fa-github"></i> Source code</a> <br>
+    <strong>CLEAR: Contextual Evidence-Based Alert Resolution for ML-Based HIDS</strong><br>
+    <em>PhD Research Project | Submitted to NDSS’27</em><br>
     <ul>
-      <li>FA-SEAL is a novel system that enables forensic analysis directly on encrypted audit logs while exclusively disclosing only cyberattack-relevant events to third-party investigators. </li>
-      <li>It leverages searchable encryption (SE) to create causal graphs while preserving privacy and security. </li>
+      <li>Built a staged verification pipeline for ML-based IDS alerts using live host metadata and artifacts, resolving 97%+ of flagged entities across 18 attack scenarios with a mean verification time of 1.8s per entity.</li>
     </ul>
   </li>
 
   <li>
-    <strong>FACT: Forensic-Aware Artifact Collection system</strong><br>
-    <em>PhD Research Project</em> 
-    <a href="https://github.com/BasantaChaulagain/fact"><i class="fab fa-github"></i> Source code</a> <br>
+    <strong>FACT: Forensic-Aware Artifact Collection System</strong><br>
+    <em>PhD Research Project | Submitted to ACSAC’26</em><br>
     <ul>
-      <li>FACT is a forensic-aware platform that enhances intrusion detection systems in lowering false positives by automating the identification, collection, and analysis of alert-relevant artifacts. </li>
+      <li>Developed an automated forensic-aware artifact collection system to support IDS alert validation, incident investigation, and threat verification, reducing false positives to near zero across 11 attack scenarios.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>FA-SEAL: Forensically Analyzable Symmetric Encryption for Audit Logs</strong><br>
+    <em>PhD Research Project | ACSAC’24</em>
+    <a href="https://github.com/BasantaChaulagain/faseal"><i class="fab fa-github"></i> Source code</a><br>
+    <ul>
+      <li>Designed and implemented a privacy-preserving cryptographic system that enables forensic analysis on encrypted audit logs with only 0.68% of log data disclosure, processing 30GB of high-volume daily logs in ~90 minutes.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>SynthDB: Synthesizing Database via Program Analysis for Security Testing of Web Applications</strong><br>
+    <em>Research Project | NDSS’23</em><br>
+    <ul>
+      <li>Evaluated real-world PHP applications with SynthDB, a database synthesizer for dynamic analysis of PHP web applications, discovering 33 previously unknown vulnerabilities across 5 real-world applications.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>MAPSEC: Multi-Agentic Program for Security and Cyberdefense</strong><br>
+    <em>Research Prototype</em><br>
+    <ul>
+      <li>Led development of an AI-assisted security operations prototype focused on automating threat analysis and improving security investigation workflows through collaborative agents.</li>
     </ul>
   </li>
 
   <li>
     <strong>Text Manipulation Library for Rust</strong><br>
-    <em>Course project for 'Secure Programming'</em>
-    <a href="https://github.com/BasantaChaulagain/text-manipulation-rs"><i class="fab fa-github"></i> Source code</a> 
-    <a href="https://crates.io/crates/text_manipulation_rs"><i class="fab fa-rust"></i> Crate</a> 
-    <br>
+    <em>Course project</em>
+    <a href="https://github.com/BasantaChaulagain/text-manipulation-rs"><i class="fab fa-github"></i> Source code</a>
+    <a href="https://crates.io/crates/text_manipulation_rs"><i class="fab fa-rust"></i> Crate</a><br>
     <ul>
-      <li> A rust crate for advanced text manipulation, including multilingual text generation, translation, and words definitions with over 4800 downloads. </li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Privacy preserving Image Classification</strong><br>
-    <em>Course project for 'Privacy Preserving Data Analysis'</em> 
-    <a href="https://github.com/BasantaChaulagain/image_clf_privacy"><i class="fab fa-github"></i> Source code</a>
-    <a href="https://arxiv.org/pdf/2412.06689"><i class="fas fa-file-pdf"></i> Report</a> <br>
-    <ul>
-      <li> This project investigates the trade-off between privacy and utility in deep learning–based image classification including ConvNet, ResNet18, EfficientNet, ViT and DenseNet21 under various differential privacy constraints. </li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Casualty Information Extraction and Analysis from News</strong><br>
-    <em>Undergraduate Capstone Project</em> 
-    <a href="https://github.com/majorProject071/MajorDjango"><i class="fab fa-github"></i> Source code</a>
-    <ul>
-      <li> A system for automatic extraction and visualization of casualty information from news articles, tested with local news feed of road accidents. </li>
-      <li> It uses techniques like Named Entity Recognition, Semantic Role Labeling and Regular expressions. </li>
+      <li>Rust crate for multilingual text generation, translation, and word definitions, with 4,800+ downloads.</li>
     </ul>
   </li>
 
@@ -167,9 +173,11 @@ permalink: /cv/
 <ul class="compact-list">
   <li><strong>Languages:</strong> Python (8+ years), C/C++ (6+ years), Bash (5+ years), PHP, Rust, Java </li>
   <li><strong>Frameworks:</strong> Django, Flask </li>
-  <li><strong>Libraries:</strong> PySpark, TensorFlow, PyTorch, Pandas, OpenSSL, NLTK, Cryptography, NetworkX, Transformers, AutoGen </li>
-  <li><strong>Tools:</strong> Linux, Windows, Git, Docker, Kubernetes, SQL, MongoDB, Regex, AWS, Jira, KVM, ZFS, Wireshark, NMAP, Qualys </li>
-  <li><strong>Others:</strong> SIEM, UEBA, SOAR, REST API, Multithreading, Threat Hunting, Time series analysis, TCP, SOC2, NIST </li>
+  <li><strong>Security:</strong> SIEM, UEBA, SOAR, EDR, Sigma, YARA, Burp Suite, Qualys, Wireshark, Cryptography, TCP/IP, NetworkX </li>
+  <li><strong>Systems:</strong> Linux, Windows </li>
+  <li><strong>Data/Tools:</strong> Spark, Athena, SQL, JSON, REST API, Regex, eBPF, Docker, KVM, AWS </li>
+  <li><strong>AI/ML:</strong> AutoGen, LLM/agent, TensorFlow, PyTorch, Pandas, NLTK, Transformers </li>
+  <li><strong>Detection:</strong> Detection Engineering, MITRE ATT&CK, Digital Forensics, Threat Hunting </li>
 </ul>
 
 ---
