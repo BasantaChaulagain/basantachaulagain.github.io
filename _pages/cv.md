@@ -14,7 +14,7 @@ permalink: /cv/
 
 <dl>
   <dt><strong>Ph.D. in Computer Science</strong> – University of Georgia</dt>
-  <dd>Aug 2021 – Jul 2026 (expected) &nbsp; | &nbsp; GPA: <strong>4.0</strong><br>
+  <dd>Aug 2021 – Jul 2026 &nbsp; | &nbsp; GPA: <strong>4.0</strong><br>
   Advisor: <a href="https://kyuhlee.github.io/">Dr. Kyu Hyung Lee</a><br>
   Focus: Cybersecurity, Digital Forensics, Intrusion Detection</dd>
 
@@ -60,7 +60,7 @@ permalink: /cv/
     </ul>
   </li>
   <li>
-    <strong>Software Engineering Intern</strong> – Sorus Nepal (Jun – Aug 2018)
+    <strong>Software Engineering Intern</strong> – Sorus Nepal (Jun 2018 – Aug 2018)
     <ul>
       <li>Involved in writing middleware, creating custom validators and exception handlings (Python-Django).</li>
     </ul>
