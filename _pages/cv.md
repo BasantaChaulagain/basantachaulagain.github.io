@@ -157,7 +157,7 @@ permalink: /cv/
 
   <li>
     <strong>Text Manipulation Library for Rust</strong><br>
-    <em>Course project</em>
+    <em>Course Project</em>
     <a href="https://github.com/BasantaChaulagain/text-manipulation-rs"><i class="fab fa-github"></i> Source code</a>
     <a href="https://crates.io/crates/text_manipulation_rs"><i class="fab fa-rust"></i> Crate</a><br>
     <ul>
@@ -173,11 +173,12 @@ permalink: /cv/
 <ul class="compact-list">
   <li><strong>Languages:</strong> Python (8+ years), C/C++ (6+ years), Bash (5+ years), PHP, Rust, Java </li>
   <li><strong>Frameworks:</strong> Django, Flask </li>
-  <li><strong>Security:</strong> SIEM, UEBA, SOAR, EDR, Sigma, YARA, Burp Suite, Qualys, Wireshark, Cryptography, TCP/IP, NetworkX </li>
-  <li><strong>Systems:</strong> Linux, Windows </li>
+  <li><strong>Security:</strong> SIEM, UEBA, SOAR, EDR, RBAC, Sigma, YARA, Burp Suite, Qualys, Wireshark, Cryptography, TCP/IP, NetworkX </li>
+  <li><strong>Systems:</strong> Linux, Windows, MacOS </li>
   <li><strong>Data/Tools:</strong> Spark, Athena, SQL, JSON, REST API, Regex, eBPF, Docker, KVM, AWS </li>
-  <li><strong>AI/ML:</strong> AutoGen, LLM/agent, TensorFlow, PyTorch, Pandas, NLTK, Transformers </li>
+  <li><strong>AI/ML:</strong> AutoGen, LLM/agent, TensorFlow, PyTorch, Pandas, NLTK, Transformers, Differential Privacy, CNN </li>
   <li><strong>Detection:</strong> Detection Engineering, MITRE ATT&CK, Digital Forensics, Threat Hunting </li>
+  <li><strong>Research:</strong> Experimental design, Metrics-driven evaluation, Peer-reviewed publishing, Cross-institution collaboration </li>
 </ul>
 
 ---
